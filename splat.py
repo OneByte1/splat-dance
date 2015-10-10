@@ -16,6 +16,7 @@ bug_delay_frames = bug_delay * FPS
 
 sprites = pygame.sprite.Group()
 screen = pygame.display.set_mode(size)
+pygame.display.set_caption('Squash the Bugs')
 score = 0
 score_increment = 10
 score_decrement = 5
