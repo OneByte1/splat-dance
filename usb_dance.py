@@ -2,7 +2,7 @@ import sys
 import usb.core
 import usb.util
 
-dev = usb.core.find(idVendor=0x0E8F, idProduct=0x0035)
+dev = usb.core.find(idVendor=0x0079, idProduct=0x0011)
 
 interface = 0
 endpoint = dev[0][(0, 0)][0]
